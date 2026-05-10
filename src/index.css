@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  
+  --color-brand-primary: #f59e0b; /* Amber 500 (Dark Yellow) */
+  --color-brand-secondary: #f97316; /* Orange 500 */
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-950 text-white antialiased selection:bg-brand-primary selection:text-black;
+  }
+}
+
+@layer components {
+  .masonry-grid {
+    column-count: 2;
+    column-gap: 0.75rem;
+    width: 100%;
+  }
+  
+  @media (width >= theme(--breakpoint-md)) {
+    .masonry-grid {
+      column-count: 3;
+      column-gap: 1rem;
+    }
+  }
+  
+  @media (width >= theme(--breakpoint-lg)) {
+    .masonry-grid {
+      column-count: 4;
+      column-gap: 1.25rem;
+    }
+  }
+  
+  @media (width >= theme(--breakpoint-xl)) {
+    .masonry-grid {
+      column-count: 5;
+    }
+  }
+  
+  .masonry-item {
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+    @apply transition-all duration-300;
+  }
+
+  @media (width >= theme(--breakpoint-md)) {
+    .masonry-item {
+      margin-bottom: 1.25rem;
+    }
+  }
+}

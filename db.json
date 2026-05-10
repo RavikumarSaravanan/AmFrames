@@ -1,0 +1,91 @@
+{
+  "posts": [
+    {
+      "id": "1778413924770",
+      "type": "video",
+      "title": "Selva & Sumithra Wedding Shoot",
+      "category": "Wedding",
+      "description": "Selva & Sumithra Wedding  Ceremony Shoot ",
+      "mediaUrl": "/uploads/file-1778413779042-976322348.mp4#t=00.1",
+      "createdAt": "2026-05-10T11:52:04.770Z"
+    },
+    {
+      "id": "1778414023549",
+      "type": "photo",
+      "title": "Meternity shoot",
+      "category": "Maternity",
+      "description": "Meternity shoot chennai",
+      "mediaUrl": "/uploads/file-1778413989001-679357712.jpg",
+      "createdAt": "2026-05-10T11:53:43.549Z"
+    },
+    {
+      "id": "1778414050817",
+      "type": "photo",
+      "title": "Baby shoot",
+      "category": "Baby",
+      "description": "Baby shoot",
+      "mediaUrl": "/uploads/file-1778414036704-453148380.jpg",
+      "createdAt": "2026-05-10T11:54:10.817Z"
+    },
+    {
+      "id": "1778414087513",
+      "type": "photo",
+      "title": "Heart Frames",
+      "category": "Frames",
+      "description": "Heart Frames for sale !",
+      "mediaUrl": "/uploads/file-1778414059396-924047853.jpeg",
+      "createdAt": "2026-05-10T11:54:47.513Z"
+    },
+    {
+      "id": "1778414120639",
+      "type": "photo",
+      "title": "Love Frames",
+      "category": "Wedding",
+      "description": "Love frames for sale !",
+      "mediaUrl": "/uploads/file-1778414097568-202470382.jpg",
+      "createdAt": "2026-05-10T11:55:20.639Z"
+    },
+    {
+      "id": "1778414153368",
+      "type": "photo",
+      "title": "Pre-Wedding Shoot",
+      "category": "Wedding",
+      "description": "Pre-Wedding Shoot",
+      "mediaUrl": "/uploads/file-1778414128711-808659442.jpg",
+      "createdAt": "2026-05-10T11:55:53.368Z"
+    },
+    {
+      "id": "1778414169894",
+      "type": "photo",
+      "title": "Wedding Shoot",
+      "category": "Wedding",
+      "description": "Pre-Wedding Shoot",
+      "mediaUrl": "/uploads/file-1778414158630-989243389.jpg",
+      "createdAt": "2026-05-10T11:56:09.894Z"
+    },
+    {
+      "id": "1778415281929",
+      "type": "video",
+      "title": "Baby birthday frames",
+      "category": "Baby",
+      "description": "Baby birthday Memories ",
+      "mediaUrl": "/uploads/file-1778415233521-669673991.mp4",
+      "createdAt": "2026-05-10T12:14:41.929Z"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "bookings": [
+    {
+      "id": "1778416151171",
+      "name": "ravi",
+      "phone": "9629071640",
+      "service": "Birthday Photoshoot",
+      "date": "2026-05-25",
+      "message": "birthday shoot tharangambadi \ntesting",
+      "createdAt": "2026-05-10T12:29:11.171Z"
+    }
+  ]
+}
