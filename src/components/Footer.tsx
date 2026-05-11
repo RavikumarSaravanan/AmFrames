@@ -1,4 +1,5 @@
 import { Instagram, Phone, MapPin, Mail, Camera } from "lucide-react";
+import logo from "@/src/assets/logo.svg";
 
 export default function Footer() {
   return (
@@ -6,10 +7,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 mb-20">
         {/* Brand Info */}
         <div className="space-y-8">
-          <div className="flex items-center gap-2 group">
-            <div className="w-12 h-12 bg-brand-primary rounded-full flex items-center justify-center text-black font-bold text-2xl shadow-lg shadow-brand-primary/20">
-              AM
-            </div>
+          <div className="flex items-center gap-3 group">
+            <img
+              src={logo}
+              alt="AM Frames Photography logo"
+              className="w-12 h-12 rounded-full object-cover shadow-lg shadow-brand-primary/20 transition-transform duration-300 group-hover:scale-110"
+            />
             <div className="flex flex-col">
               <span className="font-heading font-bold text-xl leading-none tracking-tight text-white">AM FRAMES</span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-bold">Photo Studio</span>
@@ -55,11 +58,11 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-4">
               <div className="text-brand-primary"><Phone size={20} /></div>
-              <span className="font-bold text-white">082489 75778</span>
+              <span className="font-bold text-white">+91 82489 75778</span>
             </li>
             <li className="flex items-center gap-4">
               <div className="text-brand-primary"><Mail size={20} /></div>
-              <span>amframes@studio.com</span>
+              <span>amframestharangai@gmail.com</span>
             </li>
           </ul>
         </div>

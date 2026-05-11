@@ -302,7 +302,7 @@ export default function Admin() {
                       onChange={(e) => setCategory(e.target.value as Category)}
                       className="w-full px-4 py-3 bg-white/5 border border-white/5 rounded-2xl outline-none focus:border-brand-primary transition-all text-sm font-bold appearance-none text-white"
                     >
-                      {["Wedding", "Maternity", "Baby", "Puberty", "Frames"].map(cat => (
+                      {["Wedding", "Maternity", "Baby", "Puberty", "Outdoor", "Engagement", "Pre Wedding"].map(cat => (
                         <option key={cat} value={cat} className="bg-neutral-900">{cat}</option>
                       ))}
                     </select>

@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">AM Frames Photography</title>
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD000" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="30" fill="#000" />
+  <circle cx="60" cy="60" r="40" fill="url(#logoGradient)" opacity="0.95" />
+  <path d="M40 80 L50 40 L60 64 L70 40 L80 80" fill="none" stroke="#000" stroke-width="8" stroke-linecap="round" />
+  <path d="M45 70 H75" stroke="#000" stroke-width="8" stroke-linecap="round" />
+</svg>

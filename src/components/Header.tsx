@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Camera } from "lucide-react";
 import { cn } from "@/src/lib/utils";
 import { motion, AnimatePresence } from "motion/react";
+import logo from "@/src/assets/logo.svg";
 
 const NAV_LINKS = [
   { name: "Home", href: "#home" },
@@ -45,12 +46,14 @@ export default function Header() {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-brand-primary rounded-full flex items-center justify-center text-black font-bold text-xl group-hover:scale-110 transition-transform shadow-lg shadow-brand-primary/20">
-            AM
-          </div>
+        <Link to="/" className="flex items-center gap-3 group">
+          <img
+            src={logo}
+            alt="AM Frames Photography logo"
+            className="w-10 h-10 rounded-full object-contain shadow-lg shadow-brand-primary/20 transition-transform duration-300 group-hover:scale-110"
+          />
           <div className="flex flex-col">
-            <span className={cn("font-heading font-bold text-lg leading-none tracking-tight transition-colors", isScrolled || !isHomePage ? "text-white" : "text-white")}>AM FRAMES</span>
+            <span className={cn("font-heading font-bold text-lg leading-none tracking-tight transition-colors", isScrolled || !isHomePage ? "text-white" : "text-white")}>AM FRAMES PHOTOGRAPHY</span>
             <span className={cn("text-[10px] uppercase tracking-[0.2em] transition-opacity", isScrolled || !isHomePage ? "text-white/50" : "text-white/60")}>Photo Studio</span>
           </div>
         </Link>

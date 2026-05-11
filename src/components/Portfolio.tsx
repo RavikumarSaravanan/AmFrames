@@ -4,7 +4,7 @@ import { Post, Category } from "@/src/types";
 import { Maximize2, Play, X } from "lucide-react";
 import { cn } from "@/src/lib/utils";
 
-const CATEGORIES: Category[] = ["All", "Wedding", "Maternity", "Baby", "Puberty", "Frames"];
+const CATEGORIES: Category[] = ["All", "Wedding", "Maternity", "Baby", "Puberty", "Outdoor", "Engagement", "Pre Wedding"];
 
 export default function Portfolio() {
   const [posts, setPosts] = useState<Post[]>([]);
@@ -70,7 +70,7 @@ export default function Portfolio() {
             <h2 className="text-4xl md:text-6xl font-display italic text-white">Our Best Photos</h2>
           </div>
           
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 justify-start">
             {CATEGORIES.map((cat) => (
               <button
                 key={cat}

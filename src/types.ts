@@ -10,4 +10,4 @@ export interface Post {
   createdAt: string;
 }
 
-export type Category = "All" | "Wedding" | "Maternity" | "Baby" | "Puberty" | "Frames";
+export type Category = "All" | "Wedding" | "Maternity" | "Baby" | "Puberty" | "Outdoor" | "Engagement" | "Pre Wedding";

@@ -39,16 +39,16 @@ export default function Hero({ onBookClick }: HeroProps) {
           className="text-6xl md:text-8xl lg:text-9xl font-display italic mb-10 leading-[0.85] tracking-tighter text-white"
         >
           Beautiful <br />
-          <span className="text-brand-primary">Photos</span> for You
+          <span className="text-brand-primary">Memories</span> for You
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-white/80 text-base md:text-xl font-medium max-w-xl mx-auto mb-12 leading-relaxed"
+          className="text-white/80 text-sm md:text-base font-medium italic max-w-xl mx-auto mb-12 leading-relaxed"
         >
-          We take best photos for your Wedding, Baby Shower, and all special functions in Tharangambadi.
+         We capture your best memories for Weddings, Baby Showers, and all special functions in and around Tharangambadi.
         </motion.p>
 
         <motion.div

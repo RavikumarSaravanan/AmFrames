@@ -29,42 +29,63 @@ interface Service {
 
 const PHOTOGRAPHY_SERVICES: Service[] = [
   {
-    title: "Wedding Photoshoot",
+    title: "Wedding",
     description: "Professional cinematography and high-end photography for your big day.",
     details: "Our wedding package includes full-day coverage, cinematic highlight films, candid photography, and premium wedding albums. We focus on capturing natural emotions and traditional rituals with artistic precision.",
     icon: Camera,
     category: "photography"
   },
   {
-    title: "Outdoor Photoshoot",
+    title: "Pre Wedding",
+    description: "Stylish pre-wedding shoots to highlight your romance and story.",
+    details: "Beautiful pre-wedding photography in scenic locations or elegant indoor sets. We craft cinematic imagery that captures your connection, anticipation, and the joy leading up to your wedding.",
+    icon: Camera,
+    category: "photography"
+  },
+  {
+    title: "Engagement",
+    description: "Romantic pre-wedding shoots to capture your love story.",
+    details: "Beautiful engagement sessions in scenic outdoor or elegant indoor settings. We create timeless photos that highlight your connection, joy, and anticipation before the wedding day.",
+    icon: Heart,
+    category: "photography"
+  },
+  {
+    title: "Reception",
+    description: "Stylish coverage of your wedding reception and celebrations.",
+    details: "Full reception photography captures speeches, first dances, decor, and candid moments. We preserve the energy and emotion of your evening celebration with cinematic precision.",
+    icon: Camera,
+    category: "photography"
+  },
+  {
+    title: "Outdoor",
     description: "Creative sessions in beautiful natural locations around Tharangambadi.",
     details: "Perfect for pre-wedding, post-wedding, or individual portraits. we use professional lighting and the scenic beauty of historical Tharangambadi to create stunning cinematic shots.",
     icon: ImageIcon,
     category: "photography"
   },
   {
-    title: "Birthday Photoshoot",
+    title: "Birthday",
     description: "Vibrant and fun sessions to celebrate your special milestones.",
     details: "Whether it's a first birthday or a grand celebration, we capture the joy and energy of the event. We offer theme-based setups and candid coverage of your guests.",
     icon: Star,
     category: "photography"
   },
   {
-    title: "Maternity Photoshoot",
+    title: "Maternity",
     description: "Elegant photography celebrating the beautiful journey of motherhood.",
     details: "A comfortable, artistic session for expecting mothers. We create a serene environment to capture the glow and anticipation of your new arrival. Best between 7-8 months.",
     icon: Heart,
     category: "photography"
   },
   {
-    title: "Puberty Photoshoot",
+    title: "Puberty",
     description: "Traditional coverage of the Manjal Neerattu Vizha with respect and elegance.",
     details: "Comprehensive coverage of traditional rituals and family portraits. We ensure the cultural significance of the ceremony is preserved in every frame.",
     icon: User,
     category: "photography"
   },
   {
-    title: "Baby Photoshoot",
+    title: "Baby ",
     description: "Adorable and patient sessions for your little ones' early years.",
     details: "Specialized newborn and toddler photography with baby-friendly props and themes. We prioritize your child's comfort while creating timeless memories.",
     icon: Smile,
