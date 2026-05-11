@@ -14,7 +14,7 @@ export default function Footer() {
               className="w-12 h-12 rounded-full object-cover shadow-lg shadow-brand-primary/20 transition-transform duration-300 group-hover:scale-110"
             />
             <div className="flex flex-col">
-              <span className="font-heading font-bold text-xl leading-none tracking-tight text-white">AM FRAMES</span>
+              <span className="font-heading font-bold text-xl leading-none tracking-tight text-white">AM FRAMES PHOTOGRAPHY</span>
               <span className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-bold">Photo Studio</span>
             </div>
           </div>
