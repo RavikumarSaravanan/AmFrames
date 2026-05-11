@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "type": "photo",
+      "title": "Sunset Beach Wedding",
+      "category": "Wedding",
+      "description": "Captured at Tharangambadi beach side. Cinematic lighting style.",
+      "mediaUrl": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=1200",
+      "createdAt": "2026-05-11T20:34:46.600Z"
+    },
+    {
+      "id": "2",
+      "type": "photo",
+      "title": "Outdoor Maternity Shoot",
+      "category": "Maternity",
+      "description": "Natural light outdoors. Tharangambadi gardens.",
+      "mediaUrl": "https://images.unsplash.com/photo-1559734914-469b61d6706e?auto=format&fit=crop&q=80&w=1200",
+      "createdAt": "2026-05-11T20:34:46.605Z"
+    },
+    {
+      "id": "3",
+      "type": "photo",
+      "title": "Traditional Reception",
+      "category": "Wedding",
+      "description": "Classical indoor reception shoot.",
+      "mediaUrl": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1200",
+      "createdAt": "2026-05-11T20:34:46.605Z"
+    },
+    {
+      "id": "4",
+      "type": "photo",
+      "title": "First Birthday Joy",
+      "category": "Baby",
+      "description": "Cute moment from a first birthday celebration.",
+      "mediaUrl": "https://images.unsplash.com/photo-1530652101053-8c0db4fbb5de?auto=format&fit=crop&q=80&w=1200",
+      "createdAt": "2026-05-11T20:34:46.605Z"
+    },
+    {
+      "id": "5",
+      "type": "photo",
+      "title": "Custom Photo Frame - Classic",
+      "category": "Frames",
+      "description": "High quality wooden frame with matte finish.",
+      "mediaUrl": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=1200",
+      "createdAt": "2026-05-11T20:34:46.605Z"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "password": "password123"
+  }
+}

@@ -68,10 +68,13 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-[0.3em] text-white/20 font-bold">
+      <div className="max-w-7xl mx-auto pt-10 border-t border-white/5 flex flex-col items-center gap-2 text-center text-[10px] uppercase tracking-[0.3em] text-white/20 font-bold">
         <p>&copy; {new Date().getFullYear()} AM FRAMES PHOTOGRAPHY. ALL RIGHTS RESERVED.</p>
-        <p className="flex items-center gap-2 italic">
-          High Conversion Portfolio <Camera size={12} className="text-brand-primary" />
+        <p>
+          Designed & Developed by{' '}
+          <a href="https://raventrixtechnologies.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-white transition-colors">
+            Raventrix Technologies
+          </a>
         </p>
       </div>
     </footer>
