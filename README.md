@@ -38,7 +38,7 @@ The app will be available at `http://localhost:3000`.
 
 - **URL**: `http://localhost:3000/admin`
 - **Default Username**: `admin`
-- **Default Password**: `password123`
+- **Default Password**: `*****"`
 *(You can change these in `db.json` after the first run)*
 
 ## Production Deployment

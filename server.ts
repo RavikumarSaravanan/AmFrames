@@ -6,8 +6,11 @@ import { fileURLToPath } from "url";
 import multer from "multer";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DB_PATH = path.join(__dirname, "db.json");
-const UPLOADS_PATH = path.join(__dirname, "uploads");
+
+// Support persistent volume by placing stateful data in a dedicated "data" directory
+const DATA_DIR = path.join(__dirname, "data");
+const DB_PATH = path.join(DATA_DIR, "db.json");
+const UPLOADS_PATH = path.join(DATA_DIR, "uploads");
 
 // Configure Multer for local storage
 const storage = multer.diskStorage({
@@ -32,6 +35,7 @@ const upload = multer({
 
 async function initDb() {
   try {
+    await fs.mkdir(DATA_DIR, { recursive: true });
     await fs.access(DB_PATH);
   } catch {
     const initialData = {
