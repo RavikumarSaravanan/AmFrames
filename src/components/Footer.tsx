@@ -1,5 +1,5 @@
 import { Instagram, Phone, MapPin, Mail, Camera } from "lucide-react";
-import logo from "@/src/assets/logo.svg";
+import logo from "@/src/assets/logo1.png";
 
 export default function Footer() {
   return (
